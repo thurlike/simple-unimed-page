@@ -1,0 +1,283 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu_principal {
+    width: 100%;
+    background-color: rgb(0, 152, 89);
+    height: 60px;
+}
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 13px;
+    width: 60%;
+}
+
+.rede_social ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+}
+
+.rede_social {
+    width: 30%;
+    float: right;
+}
+
+.header2 {
+    background: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 18px;
+
+
+}
+
+.menu-url {
+    border-bottom: 1px solid rgb(143, 143, 143);
+    height: 80px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 10px;
+    height: 45px;
+
+
+}
+
+.menu ul li:hover {
+
+    border-bottom: 2px solid red;
+}
+
+.menu ul li a:hover {
+    color: red;
+
+
+}
+
+.menu ul li a {
+    font-style: oblique;
+    color: rgb(0, 152, 89);
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.menu {
+    width: 50%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../img/lupa.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 190px;
+    margin-top: 10px;
+    border: 1px solid rgb(143, 143, 143);
+
+}
+
+.busca a {
+    margin-left: 13px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(0, 152, 89);
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+
+
+}
+
+.main_total {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.main_total img {
+    max-width: ;
+    max-height: 500px;
+
+
+
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 51px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/esquerda.png);
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    left: 15%;
+
+
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 51px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/direita.png);
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    right: 15%;
+
+}
+
+.slick-dots {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+    font-size: 0;
+    background-color: transparent;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    width: 150px;
+    height: 0.5px;
+    background-color: transparent;
+    border: 1px solid white;
+
+
+}
+
+.slick-dots li.slick-active {
+
+    background-color: transparent;
+    background-color: rgb(229, 188, 188);
+
+}
+.gatilho h1{
+font-size:45px ;
+text-align: center;
+/*color: #013a51;*/
+color:rgb(0, 152, 89) ;
+
+}
+.gatilho h2{
+    font-size:30px ;
+    text-align: center;
+    /*color: #013a51;*/
+    color:rgb(0, 152, 89) ;
+    
+    }
+    .servico1 img{
+        position: relative;
+        display: flex;
+        margin-left: 60px;
+        padding-bottom: 0;
+        
+       
+    }
+.gatilho p{
+    font-size: 20px;
+    color:  #013a51;
+    text-align: center;
+
+}
+.servico1{
+    padding-left: 85px;
+    width: 20%;
+    float: left;
+    position:relative;
+    margin-top: 100px;
+
+}
+.center-img{
+    margin-top: 180px;
+}
+.container_externo{
+    margin-top: 700px;
+    background-color: rgb(0, 152, 89);
+    width: 100%;
+    min-height: 450px;
+}
+#servicos{
+    flex-direction: column;
+   
+ 
+    
+
+}
+#servicos h2{
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 50px;
+    
+    
+}
+.list_servicos{
+ display: flex; 
+justify-content: space-around;
+text-align: center;
+align-items: center;
+
+}
+.item_servico img{
+    width: 200px;
+    height: 200px;
+}
+.item_servico  .list_servicos{
+    text-align: center;
+    align-items: center;
+   margin-left: 50px;
+}
+.item_servico p{
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+
+}
+.item_servico a{
+ margin-left: 25px;
+    
+    background-color: white;
+    color: #122a57;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 30px;
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+      line-height: 1.9;
+        
+     
+}
